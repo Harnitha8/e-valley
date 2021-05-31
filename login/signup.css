@@ -1,0 +1,59 @@
+*{
+    margin:0%;
+    padding: 0%;
+    border:0;
+}
+.g1,#rd1,#rd2,.signup{
+    font-family:cursive;
+    size:5%;
+    font:bolder;
+    margin-left:15%;
+    color:black;
+    font-size:20px;
+}
+#c3{
+    margin-top:3%;
+}
+
+.mainform{
+    background-color: lightblue;
+    width:52.5%;
+    height: 100%;
+    position: absolute;
+    right:0%;
+}
+h2{
+    font-family:cursive;
+    text-align: center;
+    margin-top:3%;
+    margin-bottom:3%;
+}
+.c1{
+    font-family: cursive;
+    font-size:20px;
+    border:none;
+    color:black;
+    border-bottom:2px solid black;
+    background-color: lightblue;
+    margin-left:15%;
+    height:30px;
+    width:50%;
+    box-shadow: none;
+}
+button{
+    height:40px;
+    width:70px;
+    margin-left:45%;
+    background-color:rgb(115, 201, 230);
+    font-family: cursive;
+    cursor:pointer;
+    border-radius: 20%;    
+
+}
+button:active{
+    color:black;
+    background-color:pink;
+    box-shadow: plum;
+  
+
+}

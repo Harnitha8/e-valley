@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-size:25px;
+}
+body{
+    background-color:black;
+    color:blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.table{
+        background-attachment: fixed;
+        align-items: center;
+        margin-right: auto;
+        margin-left:auto;
+        width:1000;
+        background-color: darkslateblue;
+        height: 500px; 
+}
+.btn{
+       padding-left: auto;
+       padding-right: auto;
+       background-color: dimgrey;
+       padding:7px;
+       color:blanchedalmond;
+       border-radius: 25px;
+       
+}
+table td{
+    padding-right:5px;
+    padding-left:5px;
+}
+
+
+#products_box{
+    width:780px;
+    text-align: center;
+    margin-left:30px;
+    margin-bottom: 10px;
+
+}
+
+ #single_product{
+    float:left;
+    margin-left: 20px;
+    padding:10px;
+} 
+.foot{
+    text-align:center;
+    background-color: #333;
+    overflow: hidden;
+    color: #f2f2f2;
+    padding: 10px 16px;
+    width: 100%;
+    margin-top: auto;
+}

@@ -1,0 +1,108 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.topnav {
+    background:#333;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top:8px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 8px;
+}
+.searchbox {
+    float:right;
+    margin-left:10px;
+    margin-right:0;   
+} 
+.container1{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background: url(../images/bgg.jpg);
+    background-size: cover;
+    background-attachment: fixed;  
+}
+.tab1{
+    position: absolute;
+    top:70px;
+    left:40px;
+}
+.logomain{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    animation: animate 2s infinite;
+    border-radius: 50%;
+    border: 1px solid gray;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    font-size: 40px;
+    text-align: center;
+    background:transparent;
+    padding: 3px;
+    font-weight: bold;
+    text-shadow: 5px 10px 20px blueviolet;
+    box-shadow: 10px 20px 10px palevioletred;
+}
+.logo:hover{
+    width: 120px;
+    height: 120px;
+}
+.foot{
+    text-align:center;
+    background-color: #333;
+    overflow: hidden;
+    color: #f2f2f2;
+    padding: 10px 16px;
+    margin-top: 0px;
+}
+@keyframes animate{
+    0%{
+        transform:rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@media(max-width:499px){
+    .logo{
+        width: 40px;
+        height: 40px;
+    }
+    .logomain{
+        width: 80px;
+        height: 80px;
+    }
+    .tab1{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
